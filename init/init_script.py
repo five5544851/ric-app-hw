@@ -20,10 +20,11 @@
 #   Date    : Feb 2019
 #
 
-
+#
 # This initialization script reads in a json from the specified config map path
 # to set up the initializations (route config map, variables etc) for the main
 # xapp process
+#
 
 import json;
 import sys;
@@ -51,7 +52,7 @@ def parseConfigJson(config):
 
         
 #        for k2 in config[k1].keys():
-            #print(k2);
+#            print(k2);
 #            if k2 in ParseSection:
 #                result = ParseSection[k2](config[k1]);
 #                if result == False:
@@ -89,7 +90,7 @@ ParseSection["xapp_name"] = getXappName;
 ParseSection["messaging"] = getMessagingInfo;
 
 
-#================================================================
+#=================================================================
 if __name__ == "__main__":
 
     import subprocess;
