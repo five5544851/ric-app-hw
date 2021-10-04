@@ -1,6 +1,6 @@
  {
         "xapp_name": "hwxapp",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "containers": [
             {
                 "name": "hwxapp",
@@ -35,7 +35,7 @@
         },
         "rmr": {
             "protPort": "tcp:4560",
-            "maxSize": 2072,
+            "maxSize": 2070,
             "numWorkers": 1,
             "txMessages": [
                 "RIC_SUB_REQ", "A1_POLICY_RESP", "A1_POLICY_QUERY", "RIC_HEALTH_CHECK_RESP"
